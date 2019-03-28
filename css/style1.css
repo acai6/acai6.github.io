@@ -1,0 +1,465 @@
+* {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+BODY {
+	FONT: 12px Tahoma, Geneva, sans-serif; BACKGROUND: #c0c6c9
+}
+OL {
+	LIST-STYLE-TYPE: none; LIST-STYLE-IMAGE: none
+}
+UL {
+	LIST-STYLE-TYPE: none; LIST-STYLE-IMAGE: none
+}
+A {
+	TEXT-DECORATION: none
+}
+A:hover {
+	TEXT-DECORATION: underline
+}
+IMG {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+#page {
+	MARGIN: 0px auto; WIDTH: 990px
+}
+#header {
+	PADDING-BOTTOM: 0px; MARGIN: 0px auto; PADDING-LEFT: 0px; WIDTH: 930px; PADDING-RIGHT: 0px; PADDING-TOP: 20px
+}
+#headerimg {
+	MARGIN: 0px 0px 0px -15px
+}
+H1 {
+	HEIGHT: 0px; OVERFLOW: hidden
+}
+.description {
+	TEXT-ALIGN: right; LINE-HEIGHT: 20px; MARGIN-TOP: -20px; COLOR: #4e4e4e
+}
+.description A {
+	COLOR: #4e4e4e
+}
+.navi {
+	POSITION: relative; PADDING-BOTTOM: 1px; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; BACKGROUND: #282828; HEIGHT: 28px; PADDING-TOP: 1px
+}
+.navi UL {
+	POSITION: absolute; MARGIN: 0px 0px 0px -275px; WIDTH: 550px; BACKGROUND: url(http://tgideas.qq.com/wp-content/uploads/2010/07/swap_bg2.png) no-repeat; LEFT: 50%
+}
+.navi LI {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 0px; PADDING-LEFT: 13px; PADDING-RIGHT: 13px; FLOAT: left; PADDING-TOP: 0px
+}
+.navi LI A {
+	WIDTH: 84px; DISPLAY: block; FONT: bold 14px/28px microsoft YaHei; HEIGHT: 28px; COLOR: #b9b9b9
+}
+.navi LI.rightnow A {
+	COLOR: #ffffff
+}
+.navi LI SPAN {
+	FONT: bold 10px Tahoma; COLOR: #636363
+}
+.newchance {
+	POSITION: absolute; TOP: -26px; LEFT: 670px
+}
+#swap_pic {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: 990px; PADDING-RIGHT: 0px; HEIGHT: 155px; OVERFLOW: hidden; PADDING-TOP: 20px
+}
+#swap_pic H2 {
+	TEXT-INDENT: 30px; HEIGHT: 15px; COLOR: #292929; FONT-SIZE: 10px
+}
+.box {
+	POSITION: relative; WIDTH: 930px; FLOAT: left; HEIGHT: 120px; OVERFLOW: hidden
+}
+#prev {
+	TEXT-INDENT: -100px; WIDTH: 30px; BACKGROUND: url(http://tgideas.qq.com/wp-content/uploads/2010/07/sprites1.png) no-repeat; FLOAT: left; HEIGHT: 140px; OVERFLOW: hidden
+}
+#next {
+	TEXT-INDENT: -100px; WIDTH: 30px; BACKGROUND: url(http://tgideas.qq.com/wp-content/uploads/2010/07/sprites1.png) no-repeat; FLOAT: left; HEIGHT: 140px; OVERFLOW: hidden
+}
+#prev {
+	BACKGROUND-POSITION: 0px -110px
+}
+#next {
+	BACKGROUND-POSITION: -30px -110px
+}
+.scroll {
+	CURSOR: pointer
+}
+.unable {
+	CURSOR: default
+}
+.pics {
+	POSITION: absolute; WIDTH: 5000px; TOP: 0px
+}
+.pics LI {
+	WIDTH: 960px; FLOAT: left; HEIGHT: 140px; OVERFLOW: hidden
+}
+.pics LI P {
+	BORDER-BOTTOM: #282828 1px solid; POSITION: relative; BORDER-LEFT: #282828 1px solid; FLOAT: left; OVERFLOW: hidden; BORDER-TOP: #282828 1px solid; MARGIN-RIGHT: 27px; BORDER-RIGHT: #282828 1px solid
+}
+.pics LI P SPAN {
+	POSITION: absolute; FILTER: alpha(opacity=75); LINE-HEIGHT: 30px; TEXT-INDENT: 10px; WIDTH: 100%; DISPLAY: block; BACKGROUND: url(http://tgideas.qq.com/wp-content/uploads/2010/07/sprites1.png) repeat-x 0px 140px; HEIGHT: 30px; COLOR: #fff; TOP: 0px; CURSOR: pointer; TEXT-DECORATION: none; PADDING-TOP: 140px; LEFT: 0px; opacity: 0.75
+}
+.wrapper {
+	PADDING-BOTTOM: 15px; MARGIN: 30px auto 0px; PADDING-LEFT: 0px; WIDTH: 930px; PADDING-RIGHT: 0px; BACKGROUND: #282828; OVERFLOW: hidden; PADDING-TOP: 15px
+}
+#content {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 20px; WIDTH: 655px; PADDING-RIGHT: 20px; FLOAT: left; OVERFLOW: hidden; BORDER-RIGHT: #4b4b4b 1px solid; PADDING-TOP: 0px
+}
+.post {
+	PADDING-BOTTOM: 25px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.gravatar {
+	BORDER-BOTTOM: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; PADDING-BOTTOM: 1px; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; BACKGROUND: #ffffff; FLOAT: left; BORDER-TOP: #cccccc 1px solid; BORDER-RIGHT: #cccccc 1px solid; PADDING-TOP: 1px
+}
+#content H2 {
+	FONT: 22px/24px microsoft YaHei
+}
+#content .hentry H3 {
+	FONT: 22px/24px microsoft YaHei
+}
+#content H2 A {
+	COLOR: #c9baa4
+}
+#content .hentry H3 A {
+	COLOR: #c9baa4
+}
+.art_info {
+	LINE-HEIGHT: 12px; MARGIN: 10px 0px 0px
+}
+.hentry SMALL {
+	LINE-HEIGHT: 12px; MARGIN: 10px 0px 0px
+}
+.hentry SMALL {
+	DISPLAY: block; FONT-SIZE: 12px
+}
+.art_info {
+	COLOR: #bfbfbf
+}
+.art_info A {
+	COLOR: #bfbfbf
+}
+.hentry SMALL {
+	COLOR: #bfbfbf
+}
+.entry {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 22px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; COLOR: #abaaaa; CLEAR: both; PADDING-TOP: 10px
+}
+.snsbtns {
+	FLOAT: right
+}
+.entry IMG {
+	MARGIN: 5px 0px
+}
+.entry P {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 5px
+}
+.entry P A {
+	COLOR: #abaaaa; TEXT-DECORATION: underline
+}
+.widecolumn .entry P {
+	LINE-HEIGHT: 24px; FONT-SIZE: 12px
+}
+A.more-link {
+	POSITION: absolute; MARGIN-TOP: 10px; COLOR: #abaaaa; TEXT-DECORATION: underline
+}
+A.more-link:hover {
+	TEXT-DECORATION: none
+}
+.postmetadata {
+	BORDER-BOTTOM: #4b4b4b 1px solid; TEXT-ALIGN: right; PADDING-BOTTOM: 0px; LINE-HEIGHT: 12px; PADDING-LEFT: 0px; PADDING-RIGHT: 10px; HEIGHT: 30px; COLOR: #abaaaa; PADDING-TOP: 11px
+}
+.postmetadata A {
+	COLOR: #abaaaa
+}
+#content .entry H3 {
+	MARGIN: 15px 0px 0px; FONT: bold 14px "Microsoft YaHei"
+}
+.entry A {
+	COLOR: #abaaaa
+}
+.related_post {
+	PADDING-LEFT: 14px
+}
+.tag_box {
+	PADDING-LEFT: 14px
+}
+#album {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 15px; PADDING-RIGHT: 15px; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+.sub_navi {
+	BORDER-BOTTOM: #454545 1px solid; BACKGROUND: url(http://tgideas.qq.com/wp-content/uploads/2010/07/swap_bg2.png) no-repeat; OVERFLOW: hidden
+}
+.sub_navi LI {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 0px; PADDING-LEFT: 5px; WIDTH: 90px; PADDING-RIGHT: 5px; FLOAT: left; HEIGHT: 25px; FONT-WEIGHT: bold; PADDING-TOP: 0px
+}
+.sub_navi LI A {
+	DISPLAY: block; HEIGHT: 20px; COLOR: #cecece
+}
+.sub_navi LI A:hover {
+	TEXT-DECORATION: none
+}
+#album .entry {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+#album .entry IMG {
+	MARGIN: 0px; DISPLAY: block
+}
+#album .entry H3 {
+	FONT: 12px/30px Tahoma
+}
+#album P {
+	TEXT-ALIGN: right
+}
+#album .post-edit-link {
+	COLOR: #abaaaa
+}
+#post-4 .ngg-gallery-thumbnail-box {
+	HEIGHT: 175px; OVERFLOW: hidden
+}
+#post-6 .ngg-gallery-thumbnail-box {
+	HEIGHT: 175px; OVERFLOW: hidden
+}
+#post-10 .ngg-gallery-thumbnail-box {
+	HEIGHT: 175px; OVERFLOW: hidden
+}
+#post-8 .ngg-gallery-thumbnail-box {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; PADDING-TOP: 0px
+}
+#post-8 .ngg-gallery-thumbnail {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: 430px; PADDING-RIGHT: 0px; HEIGHT: 460px; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+#album #post-8 H3 {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 0px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; FONT: bold 22px/50px microsoft YaHei; HEIGHT: 50px; COLOR: #999999; PADDING-TOP: 0px
+}
+#album #post-8 P {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 0px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; HEIGHT: 110px; PADDING-TOP: 0px
+}
+#sidebar {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 15px; WIDTH: 200px; PADDING-RIGHT: 15px; FLOAT: right; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+#sidebar H2 {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 25px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BACKGROUND: #3d3d3d; HEIGHT: 25px; COLOR: #d9d9d9; FONT-SIZE: 12px; PADDING-TOP: 0px
+}
+#sidebar H2 A {
+	COLOR: #d9d9d9
+}
+#sidebar UL UL {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; PADDING-TOP: 10px
+}
+#sidebar UL UL LI {
+	LINE-HEIGHT: 24px; HEIGHT: 24px; COLOR: #abaaaa; OVERFLOW: hidden
+}
+.widget_recent_entries LI {
+	WIDTH: 180px; WORD-WRAP: break-word; HEIGHT: 24px; OVERFLOW: hidden; WORD-BREAK: break-all
+}
+#sidebar UL UL A {
+	COLOR: #abaaaa
+}
+.rc_item DIV {
+	DISPLAY: inline
+}
+.author_name {
+	DISPLAY: none
+}
+.widget_meta {
+	_zoom: 1
+}
+.widget_meta H2 {
+	DISPLAY: none
+}
+.widget_meta UL {
+	PADDING-BOTTOM: 0px !important; PADDING-LEFT: 0px !important; WIDTH: 200px; PADDING-RIGHT: 0px !important; BACKGROUND: url(http://tgideas.qq.com/wp-content/uploads/2010/07/sprites1.png) no-repeat -200px -30px; HEIGHT: 37px; OVERFLOW: hidden; PADDING-TOP: 0px !important
+}
+.widget_meta LI {
+	FLOAT: left; HEIGHT: 37px !important
+}
+.widget_meta A {
+	MARGIN: 0px 0px 0px 25px; WIDTH: 80px; DISPLAY: inline-block; HEIGHT: 37px
+}
+A.login {
+	MARGIN: 0px; WIDTH: 200px; BACKGROUND: url(http://tgideas.qq.com/wp-content/uploads/2010/07/sprites1.png) no-repeat 0px -30px
+}
+.widget_meta A STRONG {
+	DISPLAY: none
+}
+A.logout {
+	MARGIN: 0px 0px 0px 5px; WIDTH: 50px
+}
+.widget_meta P {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; COLOR: #808080; PADDING-TOP: 5px
+}
+.widget_meta P A {
+	MARGIN: 0px; WIDTH: auto; DISPLAY: inline; HEIGHT: auto; COLOR: #808080
+}
+.widget_search {
+	PADDING-BOTTOM: 15px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 15px
+}
+.widget_search DIV {
+	BORDER-BOTTOM: #898989 1px solid; BORDER-LEFT: #898989 1px solid; PADDING-BOTTOM: 1px; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; BACKGROUND: #ffffff; HEIGHT: 21px; OVERFLOW: hidden; BORDER-TOP: #898989 1px solid; BORDER-RIGHT: #898989 1px solid; PADDING-TOP: 1px
+}
+.widget_search LABEL {
+	DISPLAY: none
+}
+#s {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; WIDTH: 150px; FLOAT: left; HEIGHT: 21px; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+#searchsubmit {
+	BORDER-BOTTOM: #909090 1px solid; BORDER-LEFT: #909090 1px solid; WIDTH: 45px; FONT: 9px Tahoma; BACKGROUND: #000000; FLOAT: right; HEIGHT: 21px; COLOR: #ffffff; BORDER-TOP: #909090 1px solid; BORDER-RIGHT: #909090 1px solid
+}
+.widget_rss {
+	PADDING-BOTTOM: 10px; TEXT-INDENT: -1000px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 10px
+}
+.widget_rss A {
+	WIDTH: 200px; DISPLAY: block; BACKGROUND: url(http://tgideas.qq.com/wp-content/uploads/2010/07/sprites1.png) no-repeat 0px -70px; HEIGHT: 37px
+}
+#footer {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 16px; MARGIN: 0px auto; PADDING-LEFT: 0px; WIDTH: 930px; PADDING-RIGHT: 0px; HEIGHT: 100px; COLOR: #292929; PADDING-TOP: 15px
+}
+#footer A {
+	COLOR: #292929
+}
+.navigation {
+	HEIGHT: 50px
+}
+.navigation {
+	COLOR: #abaaaa
+}
+.navigation A {
+	COLOR: #abaaaa
+}
+.alignleft {
+	FLOAT: left
+}
+.alignright {
+	FLOAT: right
+}
+#comments {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: "Microsoft YaHei"; COLOR: #abaaaa; FONT-SIZE: 14px; PADDING-TOP: 10px
+}
+.nocomments {
+	DISPLAY: none
+}
+.commentlist {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: "Microsoft YaHei"; PADDING-TOP: 0px
+}
+#respond {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: "Microsoft YaHei"; PADDING-TOP: 0px
+}
+.commentlist LI {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; PADDING-LEFT: 70px; PADDING-RIGHT: 0px; BORDER-TOP: #717171 1px solid; LIST-STYLE-IMAGE: none; PADDING-TOP: 15px
+}
+.commentlist LI .avatar {
+	BORDER-BOTTOM: #eeeeee 1px solid; POSITION: absolute; BORDER-LEFT: #eeeeee 1px solid; PADDING-BOTTOM: 2px; MARGIN: 0px 0px 0px -55px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; BACKGROUND: #ffffff; BORDER-TOP: #eeeeee 1px solid; BORDER-RIGHT: #eeeeee 1px solid; PADDING-TOP: 2px
+}
+.comment-author {
+	FLOAT: left; COLOR: #727272
+}
+.comment-author CITE {
+	FONT-STYLE: normal
+}
+.comment-author CITE {
+	COLOR: #abaaaa; TEXT-DECORATION: underline
+}
+.comment-author CITE A {
+	COLOR: #abaaaa; TEXT-DECORATION: underline
+}
+.commentmetadata {
+	PADDING-RIGHT: 15px; FLOAT: right
+}
+.commentmetadata A {
+	COLOR: #727272
+}
+.commentlist P {
+	PADDING-BOTTOM: 15px; LINE-HEIGHT: 18px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; COLOR: #abaaaa; CLEAR: both; PADDING-TOP: 15px
+}
+.comment-body EM {
+	FONT-STYLE: normal; COLOR: #727272
+}
+.comment-body P {
+	PADDING-RIGHT: 15px
+}
+.comment-body P A {
+	COLOR: #abaaaa; TEXT-DECORATION: underline
+}
+#commentform P {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+.reply {
+	PADDING-BOTTOM: 15px
+}
+.reply A {
+	COLOR: #ffffff
+}
+.nocomments {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+#respond {
+	PADDING-BOTTOM: 15px; LINE-HEIGHT: 20px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; CLEAR: both; BORDER-TOP: #717171 1px solid; PADDING-TOP: 15px
+}
+#respond H3 {
+	COLOR: #abaaaa; FONT-SIZE: 14px; FONT-WEIGHT: normal
+}
+#commentform P {
+	COLOR: #abaaaa; FONT-SIZE: 14px; FONT-WEIGHT: normal
+}
+#commentform P A {
+	COLOR: #abaaaa; FONT-SIZE: 14px; FONT-WEIGHT: normal
+}
+#commentform P A {
+	TEXT-DECORATION: underline
+}
+#cancel-comment-reply {
+	MARGIN-TOP: -18px; PADDING-RIGHT: 15px; FLOAT: right
+}
+#cancel-comment-reply A {
+	COLOR: #ffffff; FONT-SIZE: 12px
+}
+#commentform {
+	MARGIN: 5px 0px 0px
+}
+#commentform P {
+	MARGIN: 5px 0px
+}
+#commentform INPUT {
+	BORDER-BOTTOM: #717171 1px solid; BORDER-LEFT: #717171 1px solid; WIDTH: 150px; BACKGROUND: #282828; HEIGHT: 20px; COLOR: #fff; BORDER-TOP: #717171 1px solid; BORDER-RIGHT: #717171 1px solid
+}
+#commentform TEXTAREA {
+	BORDER-BOTTOM: #717171 1px solid; BORDER-LEFT: #717171 1px solid; PADDING-BOTTOM: 2px; MARGIN: 5px 0px 0px; PADDING-LEFT: 2px; WIDTH: 99%; PADDING-RIGHT: 2px; BACKGROUND: #282828; HEIGHT: 145px; COLOR: #fff; OVERFLOW: auto; BORDER-TOP: #717171 1px solid; BORDER-RIGHT: #717171 1px solid; PADDING-TOP: 2px
+}
+#commentform #submit {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; MARGIN: 5px 0px; WIDTH: 158px; BACKGROUND: url(http://tgideas.qq.com/wp-content/uploads/2010/07/sprites1.png) no-repeat -200px -70px; FLOAT: right; HEIGHT: 32px; BORDER-TOP: medium none; CURSOR: pointer; BORDER-RIGHT: medium none
+}
+#display {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 20px; WIDTH: 650px; PADDING-RIGHT: 20px; FLOAT: left; OVERFLOW: hidden; BORDER-RIGHT: #4b4b4b 1px solid; PADDING-TOP: 0px
+}
+.posbox {
+	BORDER-BOTTOM: #4b4b4b 1px solid; MARGIN-BOTTOM: 20px
+}
+#display .entry H3 {
+	FONT-SIZE: 12px; FONT-WEIGHT: normal
+}
+#display P {
+	TEXT-ALIGN: right
+}
+#display P A {
+	COLOR: #abaaaa
+}
+#display P IMG {
+	MARGIN: 0px
+}
+#display .entry P {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 20px; LINE-HEIGHT: 22px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+#display .entry OL {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 20px; LINE-HEIGHT: 22px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+#display .entry P STRONG {
+	COLOR: #8eb9bf; FONT-WEIGHT: normal
+}
+#display .entry OL {
+	LIST-STYLE-TYPE: decimal; PADDING-LEFT: 20px
+}
+.post-edit-link {
+	COLOR: #abaaaa
+}
+.err404 {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; HEIGHT: 1290px; PADDING-TOP: 70px
+}
